@@ -5,8 +5,9 @@
 
 body{
   width: 100%;
-  margin: 0;
+  margin: 0; /* is this margin: 0 auto; ? */
   font-family: 'Playfair Display', serif;
+  /*if you want, you can definitely create a variable with sass/scss for fonts like this one if you're going to use it in multiple places */
   font-weight: 100;
   padding: 0;
   flex: auto;
@@ -42,6 +43,7 @@ a {
   color: black;
   background: rgba(30, 255, 255, .2);
   z-index: 1;
+  /* are you sure you want this to be applied to all links on your entire site? You may want to create a class that makes it unique */
 }
 #surround {
   width: 400px;
